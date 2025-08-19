@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    margin:10px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+ul, li{
+    margin: 10px;
+    background-color: rgb(228, 221, 221)
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background-color: yellow;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+img{
+    margin: 0 auto;
+    width:400px;
+    height: auto;
+    border-radius: 30px;
+    display:block;
+}
